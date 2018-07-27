@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head class="title">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zappo - Pizza à emporter - Modification de compte</title>
+    <!-- Shared CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/material-design-iconic-font.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- CSS FOR PAGES -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mainUserAccount.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/userAccountModify.css">
+
+</head>
+
+<body>
+    <header class="title zappo-bg-dark">
+        <div class="row text-left pl-4">
+            <div class="col-3">
+            </div>
+            <div class="col-9">
+                <h1 class="zappo-text-light">Profil Zappo</h1>
+            </div>
+        </div>
+        <div class="row text-left pl-4">
+            <div class="col-3">
+            </div>
+            <div class="col-9">
+                <p class="zappo-text-light">Mettre à jour mes informations</p>
+            </div>
+        </div>
+    </header>
+    <section class="container userModify">
+        <div class='row mt-5 mb-3 text-center'>
+            <div class='col'>
+                <h4>Modifier votre compte Zappo</h4>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <form class="login-form" , method='POST' action=`/user/modify/${user.id}`>
+                    <input type="text" class="form-control" , value='user.email' , name='name' required="true">
+                    <input type="email" class="form-control" , value='user.email' , name='email' required="true">
+                    <input type="tel" class="form-control" , value='user.phone' , name='phone' required="true">
+                    <input type="password" class="form-control" , placeholder='Mot de passe actuel ***' name='password' required="true">
+                    <input type="password" class="form-control" , placeholder='Nouveau mot de passe ***' name='password' required="true">
+                    <input type="password" class="form-control" , placeholder='Répétez votre de passe ***' name='password' required="true">
+                    <button type="submit" class="mt-5 btn btn-block btnModify zappo-bg-primary zappo-text-light">Enregistrer les modifications</button>
+                </form>
+            </div>
+        </div>
+        <!--rajouté car je ne pouvais pas ajouter de marges au dessus du lien de suppression de compte autrement-->
+        <div class='row'>
+            <div class='col'>
+                <p class="invisible">x
+                </p>
+            </div>
+        </div>
+        <div class='row text-center'>
+            <div class='col mt-6'>
+                <a href=`/user/deletedAccount/${user.id}`>Supprimer votre compte Zappo ?</a>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap & Jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.botstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

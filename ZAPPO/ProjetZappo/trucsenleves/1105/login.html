@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head class="title">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zappo - Pizza à emporter - Connexion</title>
+    <!-- Shared CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/material-design-iconic-font.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- CSS FOR PAGES -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mainUserAccount.css" />
+
+</head>
+
+<body>
+    <header class="title zappo-bg-dark ">
+        <div class="row">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+                <h1 class="zappo-text-light">connexion</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+                <p class="zappo-text-light">Compte Fidélité Zappo</p>
+            </div>
+        </div>
+    </header>
+    <section class="container userLogin">
+        <div class='row mt-5 mb-3'>
+            <div class='col'>
+                <h4>Vous avez un compte Zappo</h4>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <form class="login-form" , method='POST' , action='/user/login'>
+                    <input type="email" class="form-control" , placeholder='Email' name='email' required="true">
+                    <input type="password" class="form-control" , placeholder='Mot de passe ***' name='password' required="true">
+                    <a href="/lostPassword">
+                        <p class="text-right">Mot de passe oublié ? Cliquez ici</p>
+                    </a>
+                    <button type="submit" class="btn btn-block btnLogin mb-5 zappo-bg-primary zappo-text-light">Valider</button>
+                </form>
+            </div>
+        </div>
+
+        <div class='row mb-3 creation'>
+            <div class='col'>
+                <h4>Créer votre compte Zappo</h4>
+            </div>
+        </div>
+        <div class='row mb-4 mr-1 ml-1 pt-2 pb-2 bg-light'>
+            <div class='col text-center'>
+                <a class="zappo-text-primary" href="/registerAccount.html">Créer un compte</a>
+            </div>
+        </div>
+        <div class="row mb-3 directOrder">
+            <div class='col text-center'>
+                <h4>Commande sans création de compte</h4>
+            </div>
+        </div>
+        <div class="row mb-3 pt-2 pb-2 mr-1 ml-1 bg-light">
+            <div class='col text-center'>
+                <a class="zappo-text-primary" href="/ ">Commande rapide</a>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap & Jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+zappo back office
+
+	produits :
+		édition : apparition d'un "undifined" en dessous du titre du produit quand on selectionne un produit associé
+		produit associé : seulement pour les bières ?
+		stats : texte en anglais, reviens toujours à janvier quand on valide les stats au mois, aucune stats ne s'affiche
+		
+
+zappo employés
+	bouton déconnexion non effectif
+	petite icone / texte qui s'affiche quand pas de commande => à centrer
+  	pas de bouton pour réactiver l'application de vente
+
+
+App Zappo :
+
+	prix manque toujours le zéro à la fin
+	
+	panier : choix de la date de retrait non fonctionnel et besoin des 20 minutes 
+
+	profil : besoin de design sur la page commandes quand elle est vide
+
+	besoin bouton déconnexion / connexion, il ne s'affiche plus
+
+	Manque page CGU
+
+	La validation du paiement ne renvoi rien ?
+
+

@@ -1,0 +1,37 @@
+page login admin : bouton écrit en noir
+mot de passe oublié ne marche pas
+(#)
+
+paiement :
+pas de redirection 
+
+
+select sous categorie mettre à jour avec categories
+
+produit (édition) ajouter bouton retour ?
+produits (edition) ajouter une case à cocher pour ajouter la suggestion du chef
+
+bieres : champ pour ajouter photo
+
+pizze : on peut pas ajouter le produit associé
+
+
+stats : lors du choix du mois, celui-ci revient à "janvier" après validation
+année 2018 seulement
+
+creation promo pas de validation (promo sans nom, pourcentage...)
+promo : on ne peut pas la publier, mais envoi fonctionne(en json mais il faut le lier au mail)
+
+
+creer un compte employé : pas de fermeture quand on clique à côté
+ajouter un bouton supprimer promo
+remplacer "fiche complete" par "detail" par exemple.
+
+bouton ajout employés doit être blanc
+
+
+
+
+
+
+

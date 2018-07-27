@@ -1,0 +1,129 @@
+extends ../layout
+
+block content
+  if product 
+      .col
+        .row.justify-content-between.mb-4
+            h1.text-center.bleuZappoText Editer
+        .row.justify-content-center.mt-5
+            .col-lg-8.bg-light.boxShadowB
+              .row.justify-content-center
+                  .col-sm-8
+                    .row.mb-5.mt-4.justify-content-center
+                      h3.text-muted.text-center #{product.name}
+                    form(method="POST", action=`/admin/produits/update/${product.id}`)
+                      .form-group
+                        label(for='name') Nom
+                        input#name.form-control(name="name", type='text', aria-describedby='nameHelp', value=`${product.name}`)
+                        small#nameHelp.form-text Nom du produit
+                      .form-group
+                        label(for='description') Description
+                        textarea#description.form-control(name="description", aria-describedby='descriptionHelp',rows="3")
+                          =product.description
+                        small#descriptionHelp.form-text Description en un ou deux paragraphes max.
+                      .form-group
+                        label(for='ht_price') Prix hors taxe
+                        input#ht_price.form-control(name="ht_price", type='text', aria-describedby='ht_priceHelp',  value=`${product.ht_price}`)
+                        small#ht_priceHelp.form-text Prix hors taxe (float accepté).
+                      .form-group
+                        label(for='tva') Taux de TVA
+                        select#tva.form-control(name="tva", class="form-control", aria-describedby='tvaHelp')
+                          option(value='10', selected= product.tva === 10) 10
+                          option(value='20', selected= product.tva === 20) 20
+                        small#tvaHelp.form-text
+                          | Exprimé en pourcentage. 10 pour la plupart des produits. 20 pour les sodas sucrés et alcools.
+                      .form-group
+                        label(for='state') Etat
+                        select#state.form-control(name="state", class="form-control", aria-describedby="stateHelp")
+                          option(value='1',selected= product.state) Activée
+                          option(value='0',selected= !product.state) Désactivée
+                        small#stateHelp.form-text Permet de masquer le produit (en cas d'indisponibilité ou autre).
+                      .form-group
+                        label(for='category_id') Catégorie
+                        select#category_id.form-control(name="category_id")
+                          option(value='2', selected= product.category_id === 2) Entrées
+                          option(value='1', selected= product.category_id === 1) Pizze
+                          option(value='3', selected= product.category_id === 3) Desserts
+                          option(value='4', selected= product.category_id === 4) Boissons
+                          option(value='5', selected= product.category_id === 5) Bambino
+                        small#category_idHelp.form-text Catégorie principale
+                      .form-group
+                        label(for='sub_category') Sous-catégorie
+                        select#sub_category.form-control(name="sub_category")
+                          option(value='Aperitivo', selected= product.sub_category === 'Aperitivo') Aperitivo
+                          option(value='Mozzarella bar', selected= product.sub_category === 'Mozzarella bar') Mozzarella bar
+                          option(value='Contorni', selected= product.sub_category === 'Contorni') Contorni
+                          option(value='Pizze', selected= product.sub_category === 'Pizze') Pizze
+                          option(value='calzoni', selected= product.sub_category === 'Calzoni') Calzoni
+                          option(value='Dolci', selected= product.sub_category === 'Dolci') Dolci
+                          option(value='Gelati', selected= product.sub_category === 'Gelati') Gelati
+                          option(value='Caffe', selected= product.sub_category === 'Caffe') Caffe
+                          option(value='Vini', selected= product.sub_category === 'Vini') Vini
+                          option(value='Birra', selected= product.sub_category === 'Birra') Birra
+                          option(value='Alcolici', selected= product.sub_category === 'Alcolici') Alcolici
+                          option(value='Softs', selected= product.sub_category === 'Softs') Softs
+                        small#sub_categoryHelp.form-text Sous-catégorie.
+                      .row.justify-content-center
+                        button.btn.btnZappoBleu.mb-3.mt-2 Mettre à jour le produit      
+            
+  else if product === undefined
+      .col
+        .row.justify-content-between.mb-4
+            h1.text-center.bleuZappoText Editer
+        .row.justify-content-center.mt-5
+            .col-lg-8.bg-light.boxShadowB
+              .row.justify-content-center.pt-4
+                  .col-sm-8
+                    form(method="POST", action="/admin/produits/add")
+                      .form-group
+                        label(for='name') Nom
+                        input#name.form-control(name="name", type='text', aria-describedby='nameHelp', placeholder='Nom du produit')
+                        small#nameHelp.form-text Nom du produit
+                      .form-group
+                        label(for='description') Description
+                        textarea#description.form-control(name="description", aria-describedby='descriptionHelp', placeholder='Description...')
+                        small#descripEditer Description en un ou deux paragraphes max.
+                      .form-group
+                        label(for='ht_price') Prix hors taxe
+                        input#ht_price.form-control(name="ht_price", type='text', aria-describedby='ht_priceHelp')
+                        small#ht_priceHelp.form-text Prix hors taxe (float accepté).
+                      .form-group
+                        label(for='tva') Taux de TVA
+                        select#tva.form-control(name="tva", class="form-control", aria-describedby='tvaHelp')
+                          option 10
+                          option 20
+                        small#tvaHelp.form-text
+                          | Exprimé en pourcentage. 10 pour la plupart des produits. 20 pour les sodas sucrés et alcools.
+                      .form-group
+                        label(for='state') Etat
+                        select#state.form-control(name="state", class="form-control", aria-describedby="stateHelp")
+                          option(value='1') Activée
+                          option(value='0') Désactivée
+                        small#stateHelp.form-text Permet de masquer le produit (en cas d'indisponibilité ou autre).
+                      .form-group
+                        label(for='category_id') Catégorie
+                        select#category_id.form-control(name="category_id")
+                          option(value='2') Entrées
+                          option(value='1') Pizze
+                          option(value='3') Desserts
+                          option(value='4') Boissons
+                          option(value='5') Bambino
+                        small#category_idHelp.form-text Catégorie principale
+                      .form-group
+                        label(for='sub_category') Sous-catégorie
+                        select#sub_category.form-control(name="sub_category")
+                          option Aperitivo
+                          option Mozzarella bar
+                          option Contorni
+                          option Pizze
+                          option Calzoni
+                          option Dolci
+                          option Gelati
+                          option Caffe
+                          option Vini
+                          option Birra
+                          option Alcolici
+                          option Softs
+                        small#sub_categoryHelp.form-text Sous-catégorie.
+                      .row.justify-content-center
+                        button.btn.btnZappoBleu.mb-3.mt-2 Ajouter le produit

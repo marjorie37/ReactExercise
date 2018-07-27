@@ -1,0 +1,32 @@
+[debug] [2018-05-21T16:00:16.535Z] ----------------------------------------------------------------------
+[debug] [2018-05-21T16:00:16.537Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-05-21T16:00:16.537Z] CLI Version:   3.18.4
+[debug] [2018-05-21T16:00:16.537Z] Platform:      linux
+[debug] [2018-05-21T16:00:16.537Z] Node Version:  v8.11.1
+[debug] [2018-05-21T16:00:16.538Z] Time:          Mon May 21 2018 18:00:16 GMT+0200 (CEST)
+[debug] [2018-05-21T16:00:16.538Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-21T16:00:16.546Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-21T16:00:16.546Z] > authorizing via signed-in user
+[debug] [2018-05-21T16:00:16.549Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/projet2-13ef1  
+  
+ Mon May 21 2018 18:00:16 GMT+0200 (CEST)
+[debug] [2018-05-21T16:00:17.372Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-21T16:00:17.374Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/projet2-13ef1/tokens  
+  
+ Mon May 21 2018 18:00:17 GMT+0200 (CEST)
+[debug] [2018-05-21T16:00:18.069Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-21T16:00:18.071Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/projet2-13ef1  
+  
+ Mon May 21 2018 18:00:18 GMT+0200 (CEST)
+[debug] [2018-05-21T16:00:19.144Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/wilder/Documents/ES6'...
+[info] 
+[debug] [2018-05-21T16:00:19.149Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/383104422920/clients/_:getWebAppConfig  
+  
+ Mon May 21 2018 18:00:19 GMT+0200 (CEST)
+[debug] [2018-05-21T16:00:19.819Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

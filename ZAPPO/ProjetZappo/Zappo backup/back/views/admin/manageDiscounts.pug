@@ -1,0 +1,38 @@
+extends ../layout
+
+
+block content
+        .col
+            .row.justify-content-between.mb-4
+                h1.text-center.bleuZappoText Promotions
+                a(href='/admin/discounts/editer' role="button")
+                    .btn.btnZappoOutline
+                        |  Nouvelle promotion
+                        i.fas.fa-plus-circle.ml-2
+            .row.justify-content-center
+              .col-md-10
+                each discount in discounts
+                    .row.mt-3.mb-3.p-3.bg-light.boxShadowBL
+                        .col 
+                            .row
+                                .col-9
+                                    .row.justify-content-around
+                                        h3=discount.name
+                                        h6=discount.percentage
+                                .col-3
+                                    .row.justify-content-end
+                                        p=discount.code
+                            .row.align-items-center
+                                .col-9
+                                    p=discount.jsonToStr
+                                .col-3
+                                    .row
+                                        .col-6
+                                            a(href=`#`)
+                                                button.btn.btnZappoBleu
+                                                    i.far.fa-edit
+                                        .col-6
+                                            a(href=`#`)
+                                                button.btn.btnZappoBleu
+                                                    i.far.fa-envelope
+                                    

@@ -1,0 +1,19 @@
+
+perte de mot de passe :
+
+ page login => alerte mot de passe erroné
+je clique sur le lien 'mot de passe oublié'
+
+  page demande d'adresse email du compte
+je rentre mon adresse email
+
+  page signalant l'envoi du lien de reinitialisation du mot de passe
+je vais dans mes emails
+
+  mes emails
+je clique sur le lien de réinitialisation
+
+ page me permettant de renouveller mon mot de passe
+je rentre mon mot de passe plusieurs fois, je valide
+
+ page de login avec message 'mot de passe changé'

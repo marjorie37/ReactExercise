@@ -1,0 +1,33 @@
+reunion base de donnes
+
+"float" pour la tva, les prix, les prix HT les pourcentages, le total
+
+va-t'il gerer une table categories ?
+
+=> Supprimer table "categories" et placer categories dans "produits" avec liste déroulante (cat : pizza, boisson...)
+
+cat produits et tva dans une table
+
+promotion : % en float
+
+pas stocker les stats dans une table
+requêtes mysql seulement
+
+(Si pas gérer dans le CRUD, les mettre en colonnes dans les tables)
+
+relation declinaison, self referencing one to many (biere - pizza), table en plus avec
+produits associés avec 2 clefs étrangeres
+
+1 table employés avec des roles (admin ou non)
+
+délai en colonne de commandes
+pas de lien entre commande et délai
+
+commande : date acceptation commande
+
+enlever table stats, categories, delai, admin transformé en employés avec roles
+
+produit actif ou pas (pizza d'été...)
+utilisateur actif ou pas
+
+

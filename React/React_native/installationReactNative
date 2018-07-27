@@ -1,0 +1,8 @@
+https://facebook.github.io/react-native/
+
+permet de créer des app natives sans expo :
+ x code
+installer watchman
+npm install -g react-native-cli
+
+

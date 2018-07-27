@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<script>
+
+var answer = prompt('Hey mon ami ! Tu aimes ça les patates ?');
+if (answer = ['oui', 'yes', 'ouais']) {
+var diese = "#";
+    for (var i = "#" ; diese.length < 8; diese = diese + i) {
+console.log(diese);}
+}
+else if (answer ==='non') {
+ alert('Dommage');
+}
+
+else {
+alert('Je vous sens comme tiraillé');}
+
+</script>
+
+</html>

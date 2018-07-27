@@ -1,0 +1,10 @@
+{
+    "development": {
+        "username": "dev2502_wilders",
+        "password": "wildcodeschool",
+        "database": "dev2502_Zappo",
+        "host": "109.234.165.57",
+        "dialect": "mysql",
+        "logging": false
+    }
+}

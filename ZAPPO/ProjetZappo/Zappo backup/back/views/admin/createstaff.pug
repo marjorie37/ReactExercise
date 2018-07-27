@@ -1,0 +1,20 @@
+extends ../layout
+
+block content
+        .col
+            .row.justify-content-between.mb-4
+                h1.text-center.bleuZappoText Creer un compte utilisateur
+            .row.justify-content-center
+                .col-md-8.mt-5
+                    form(method="POST", action=`/admin/manage/creer`)
+                        .form-group
+                            label.h6(for='renseignerEmail') Identifiant
+                            input(class="form-control",name="name",type="text",id="renseignerEmail", placeholder="",required="required")
+                        .form-group
+                            label.h6(for='renseignerPassword') Mot de passe
+                            input(class="form-control",name="password",id="renseignerPassword",type="password",placeholder="",required)
+                        .form-group
+                            label.h6(for='renseignerPassword') Confirmer votre mot de passe
+                            input(class="form-control",name="confirmPassword",id="confirmPassword",type="password",placeholder="",required)
+                        .row.justify-content-md-center.mt-4.btnConnexionStaffDiv
+                            button.justify-content-center.btn-block(type="submit",class="btn btn-success") Valider

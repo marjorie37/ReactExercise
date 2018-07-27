@@ -1,0 +1,25 @@
+input {
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+  color: orangered;
+  font-family: "Sunflower", sans-serif;
+  border-color: orange;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: orangered;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: orangered;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: orangered;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: orangered;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zappo - Front</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Shared CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/material-design-iconic-font.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- Suggestions CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/suggestions.css" />
+    <!-- <script src="main.js"></script> -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark zappo-bg-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link zappo-text-light" href="#">
+                        <span class="zmdi zmdi-account-o zmdi-hc-fw zmdi-hc-fh zmdi-hc-2x"></span>&nbsp;Mon compte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zappo-text-light" href="#">
+                        <span class="zmdi zmdi-store zmdi-hc-fw zmdi-hc-fh zmdi-hc-2x"></span>&nbsp;Le restaurant</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link zappo-text-light" href="#">
+                        <span class="zmdi zmdi-file-text zmdi-hc-fw zmdi-hc-fh zmdi-hc-2x"></span>&nbsp;Mentions légales</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <a class="navbar-brand mr-0 zappo-text-light" href="#">Zappo App'</a>
+        </div>
+
+
+        <ul id="navbarTools" class="navbar-nav">
+            <li class="nav-item mr-3">
+                <a class="nav-link" href="#">
+                    <span class="zmdi zmdi-sign-in zmdi-hc-2x zappo-text-light"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span class="zmdi zmdi-shopping-basket zmdi-hc-2x zappo-text-light"></span>
+                </a>
+            </li>
+        </ul>
+
+
+    </nav>
+    <main id="productsLists">
+        <nav id="categoryList" class="d-flex bg-light text-nowrap">
+            <div class="categoryItem">
+                <a class="nav-link zappo-text-dark zappo-active" href="#">Suggestions</a>
+            </div>
+            <div class="categoryItem">
+                <a class="nav-link zappo-text-dark" href="#">Pizze</a>
+            </div>
+            <div class="categoryItem">
+                <a class="nav-link zappo-text-dark" href="#">Entrées</a>
+            </div>
+            <div class="categoryItem">
+                <a class="nav-link zappo-text-dark" href="#">Boissons</a>
+            </div>
+            <div class="categoryItem">
+                <a class="nav-link zappo-text-dark" href="#">Desserts</a>
+            </div>
+        </nav>
+
+        <div class="productsList">
+            <div class="productCard">
+                <div class="cardHead">
+
+                    <h3>Margharita</h3>
+                    <div>9,90 €</div>
+                    <a href="#">
+                        <span class="zmdi zmdi-shopping-cart-plus zmdi-hc-2x"></span>
+                    </a>
+                </div>
+                <div>
+                    <div>Sauce tomate San Marzano DOP, mozzarella fior di latte, basilic, huile d’olive extra vierge</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Bootstrap & Jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

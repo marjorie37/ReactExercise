@@ -1,0 +1,119 @@
+.db {
+  background-color: red !important;
+}
+.db2 {
+  background-color: green !important;
+}
+.db3 {
+  background-color: blue !important;
+}
+
+:root {
+  --main-whiteGrey-color: #f2f2f2;
+  --main-blueGrey-color: #2e3e50;
+  --main-red-color: #c1392f;
+  --main-blue-color: #009ee0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-image: url(../assets/background.gif);
+  background-color: var(--main-whiteGrey-color);
+}
+
+/*//////////////////////////////////////////////////
+//  Webfonts in 3 formats for more compatibility  // 
+//////////////////////////////////////////////////*/
+
+@font-face {
+  font-family: "Bernardo Moda";
+  src: url("../fonts/BernardoModaBold.woff2") format("woff2"),
+    url("../fonts/BernardoModaBold.woff") format("woff"),
+    url("../fonts/BernardoModaBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bernardo Moda";
+  src: url("../fonts/BernardoModa.woff2") format("woff2"),
+    url("../fonts/BernardoModa.woff") format("woff"),
+    url("../fonts/BernardoModa.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bernardo Moda";
+  src: url("../fonts/BernardoModaSemibold.woff2") format("woff2"),
+    url("../fonts/BernardoModaSemibold.woff") format("woff"),
+    url("../fonts/BernardoModaSemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+#navbarTools {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+/*//////////////////////////////////////////////////
+//                 texts and links                // 
+//////////////////////////////////////////////////*/
+
+.zappoTitre {
+  font-family: "Bernardo Moda", Arial, sans-serif;
+  font-weight: normal;
+}
+
+.zappo-text-light {
+  color: var(--main-whiteGrey-color) !important;
+}
+
+.zappo-text-dark {
+  color: var(--main-blueGrey-color) !important;
+}
+
+.zappo-text-primary {
+  color: var(--main-red-color) !important;
+}
+
+.zappo-text-info {
+  color: var(--main-blue-color) !important;
+}
+
+/*//////////////////////////////////////////////////
+//                   backgrounds                  // 
+//////////////////////////////////////////////////*/
+
+.zappo-bg-light {
+  background-color: var(--main-whiteGrey-color) !important;
+}
+
+.zappo-bg-dark {
+  background-color: var(--main-blueGrey-color) !important;
+}
+
+.zappo-bg-primary {
+  background-color: var(--main-red-color) !important;
+}
+
+.zappo-bg-info {
+  background-color: var(--main-blue-color) !important;
+}
+
+/*//////////////////////////////////////////////////
+//                     buttons                    // 
+//////////////////////////////////////////////////*/
+
+.backButton {
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+}
+.backButtonIcon {
+  vertical-align: middle;
+  line-height: 80%;
+  font-size: 3.2rem;
+}

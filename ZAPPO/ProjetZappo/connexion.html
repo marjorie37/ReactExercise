@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="title">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" , href="/home/wilder/Documents/ZAPPO/ProjetZappo/lyon-0218-js-zappo/back/public/stylesheets/marjorie.css">
+    <title>Connexion</title>
+</head>
+
+<body>
+    <header class="titre">
+        <h1>CONNEXION</h1>
+        <h5>Compte Fidélité Zappo</h5>
+    </header>
+    <section class="connexion">
+        <h3>Vous avez un compte Zappo</h3>
+        <form class='login' method='POST' action='/user/login'>
+            <input type='email' , placeholder='Email' name='email'>
+            <input type='password' , placeholder='******' name='password'>
+            <a href="/user/lostPassword"> Mot de passe oublié</a>
+            <button class="enter" type="submit"> Valider </button>
+        </form>
+    </section>
+    <section class="creation">
+        <h3>C'est votre première commande</h3>
+        <a href="/user/register">Créer un compte Zappo</a>
+        <h3>Commande sans création de compte</h3>
+        <a href="/">Commande rapide</a>
+    </section>
+
+
+</body>
+
+</html>

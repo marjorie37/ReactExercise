@@ -1,0 +1,12 @@
+.userModify h4 {
+  font-size: 1.5em;
+}
+.userModify input,
+button {
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.btnModify {
+  font-size: 1.3em;
+}

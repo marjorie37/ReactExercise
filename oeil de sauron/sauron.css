@@ -1,0 +1,15 @@
+#black {
+	background-color : black;
+}
+#orange {
+	background-color: #ff7f2a;
+}
+p {
+	visibility: hidden;
+	padding-bottom: 45%;
+}
+.row {
+	flex-wrap : nowrap;
+	justify-content: center;
+
+}

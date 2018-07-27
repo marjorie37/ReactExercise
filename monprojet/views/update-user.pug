@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h2="Modifier utilisateur"
+    form(method="POST", action="/users/" + prenom + "?_method=PUT")
+        input(class="form", required="required", pattern=".{3,}", name="prenom", placeholder="prenom")
+        button(type="submit", class="btn btn-outline-secondary") Valider

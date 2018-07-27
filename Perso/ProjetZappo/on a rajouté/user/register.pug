@@ -1,0 +1,16 @@
+extends ../layout
+
+    Block content
+
+
+    h2="Compte Zappo"
+
+    form(action="/user/register", method="POST")
+        label(for="name") Votre nom :
+        input(class="form-control", name="name", type="text", placeholder="Votre nom", required)
+        input(class="form-control", name="name", type="text", placeholder="Votre prénom", required)
+        input(class="form-control", name="email", type="email", placeholder="Votre email", required)
+        input(class="form-control", name="telephone", type="telephone", placeholder="N° de téléphone", required)
+        input(class="form-control", name="password", type="password", placeholder="Votre mot de passe", required)
+        input(class="form-control", name="password", type="password", placeholder="Répêtez votre mot de passe", required)
+        button(type="submit") Valider

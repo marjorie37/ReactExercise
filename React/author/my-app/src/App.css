@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+button {
+  background-color: #008cba;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+h1 {
+  color: green;
+}

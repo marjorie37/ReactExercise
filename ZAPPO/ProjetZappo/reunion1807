@@ -1,0 +1,81 @@
+john@ssd.fr
+
+1Azertyu
+
+
+FRONT :
+
+hompage :
+
+*suggestions selectionnées par le chef ok mais pas d'utilisation de l'historique de commande
+*Description absente sur certains produits (mettre une petite phrase à la place)
+*Problème d'association de produits, pb requete ou enregistrement (pb jointure au niveau de la requete)
+*Calculs prix des produits ok mais centièmes à afficher sur les prix
+
+
+panier :
+
+*Gestion des dates faussees sur le panier
+*Besoin d'un delai de 20 minutes pour les commandes
+*Footer à fixer en bas
+
+navbar : rediriger côte react router (pas de href)
+
+*Mentions legales ? Page vide à créer, remplir de lorem pour la demo (ce sera des CVG)
+le juriste s'en occupe
+
+creation de compte :
+*Erreur creation de compte
+*Message erreur à ajouter si doublon email lors creation de compte
+
+paiement :
+
+*Centrer verticalement et rappeler le montant
+*Cryptogramme visuel impossible d'entrer le numéro dans le champ
+
+*Commentaires à ajouter dans panier ou lors de la validation du paiement
+"voulez vous ajouter qqchose au restaurateur?"
+
+envoi du paiement : 
+
+*Besoin de l'affichage d'une reponse (notification existe mais pas lié)
+*Sur page notification : pas de reprise des points fidelité
+
+modification de compte client :
+*Lien pas bon dans modif de compte, validation formulaire à voir plus tard
+
+*page maintenance à designer (lorsque la l'app est arrêtée)
+
+dashboard : 
+
+*Pas de reception de la commande qui vient d'être envoyée
+*Sur la vue "commande", composant "orderbill" pas d'id ? La commande ne s'affiche pas
+*Ajouter champs TTC dans édition et ajout produits en back
+
+ce qu'il manque dans le Back Office :
+*Stats => manque fichier excel
+*association produits
+*publication page promo
+*front promo
+
+*contrôler côté validation stripe pour les commandes
+
+FRONT EMPLOYES:
+
+commande envoyée : marche
+*Mettre un X devant les quantités (pour ne pas qu'on la confonde avec un id)
+
+*champ token : ref plutot qu'id pour chaque commande
+
+bon de commande :  
+*Rappeler heure de commande, num de commande + gras, elargir des listes de produits
+
+*Bouton déconnexion employés doit être fonctionnel
+*Bouton commande refusée non fonctionnel (marche en front mais pas en back)
+
+
+1 personne sur les emails (bcp de boulot) => Romain
+recap emails qui partent
+
+
+

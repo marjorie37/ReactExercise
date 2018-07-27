@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    h2=`Effacer utilisateur ${id}`
+    form(method="POST", action="/users/" + id + "?_method=DELETE")
+        button(type="submit", class="btn btn-outline-secondary") Effacer

@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+    h3="Vous avez un compte Zappo"
+    form(action="/user/login", method="POST")
+        label="Identifiant"
+        input(class="form-control", name="email", type="email", placeholder="Votre email", required) 
+        label="Mot de passe"
+        input(class="form-control", name="password", type="password", placeholder="Votre mot de passe", required)
+        button(type="submit") Se connecter 
+    a(href="/user/oubli_mot_de_passe") Mot de passe oublié

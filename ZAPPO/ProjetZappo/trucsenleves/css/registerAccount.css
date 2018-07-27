@@ -1,0 +1,12 @@
+.userRegister h4 {
+  font-size: 1.5em;
+}
+.userRegister input,
+button {
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.btnRegister {
+  font-size: 1.3em;
+}

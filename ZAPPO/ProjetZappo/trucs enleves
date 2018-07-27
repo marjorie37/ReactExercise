@@ -1,0 +1,7 @@
+req.flash(
+      "changedpassword",
+      "La modification de votre mot de passe a bien été prise en compte"
+    );
+
+if message 
+        p.alert.alert-danger=message.changedpassword

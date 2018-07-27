@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    form(method="POST", enctype="multipart/form-data", action="/uploaddufichier")
+        input(type="file", name="monfichier" multiple)
+        label Uploader de une à quatre photo (.png, 3 mo max)
+        button(type="submit") envoyer la(les) photo(s)

@@ -1,0 +1,26 @@
+{
+  "name": "zappo",
+  "version": "1.0.0",
+  "description": "pwa",
+  "main": "index.js",
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "concurrently --kill-others \"cd back && npm start\" \"cd front && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wcs",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildCodeSchool/lyon-0218-js-zappo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WildCodeSchool/lyon-0218-js-zappo/issues"
+  },
+  "homepage": "https://github.com/WildCodeSchool/lyon-0218-js-zappo#readme",
+  "dependencies": {}
+}

@@ -1,0 +1,32 @@
+
+extends ../layout
+
+
+block content
+        .col
+            .row.justify-content-between.mb-4
+                h1.text-center.bleuZappoText Tableau de Bord
+            .row.justify-content-center
+                #graphique
+                    canvas#chartjs.p-3
+            .row.justify-content-around
+                .card.text-center.cardZappoDash
+                    .card-header.bleuZappoBg.blancZappoCl.h4 CA
+                    .card-body
+                        blockquote.blockquote.mb-0
+                            h3.textCardRed=donnees.ca
+                .card.text-center.cardZappoDash
+                    .card-header.bleuZappoBg.blancZappoCl.h4 Panier moyen
+                    .card-body
+                        blockquote.blockquote.mb-0
+                            h3.textCardNavy=donnees.panier
+                .card.text-center.cardZappoDash
+                    .card-header.bleuZappoBg.blancZappoCl.h4 Pizza
+                    .card-body
+                        blockquote.blockquote.mb-0
+                            h3.textCardBlue=donnees.pizza
+                .card.text-center.cardZappoDash
+                    .card-header.bleuZappoBg.blancZappoCl.h4 Nouveaux Clients
+                    .card-body
+                        blockquote.blockquote.mb-0
+                            h3.textCardGreen=donnees.users

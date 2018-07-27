@@ -1,0 +1,755 @@
+1  npm start
+    2  sudo npm install passport --save
+    3  sudo npm install passport-local --save
+    4  npm start
+    5  sudo npm install --save express-session
+    6  sudo npm install --save session-file-store
+    7  npm start
+    8  sudo lsof -i | grep 3000
+    9  sudo kill -9 2435
+   10  npm start
+   11  cd ..
+   12  cd Documents/
+   13  cd Dojos/
+   14  git clone https://github.com/Symfomany/dojoEleven.git
+   15  node dojoTwo
+   16  npm start
+   17  clear
+   18  npm start
+   19  clear
+   20  npm start
+   21  sudo npm install --save express-flash
+   22  npm start
+   23  sudo npm install --save express-flash
+   24  cd Documents/
+   25  cd TrainingJS/
+   26  cd tTrainingJS/
+   27  cd trainingJS/
+   28  git clone https://github.com/Symfomany/express-base.git
+   29  npm start
+   30  sudo install --save morgan
+   31  sudo npm install --save morgan
+   32  npm start
+   33  sudo npm install --save express
+   34  npm start
+   35  sudo npm install --save node-sass-middleware
+   36  npm start
+   37  npm install node-sass-middleware
+   38  sudo npm install node-sass-middleware
+   39  sudo npm install --save path
+   40  sudo npm install --save core-util-is
+   41  npm rebuild node-sass
+   42  npm start
+   43  sudo npm install --save express
+   44  cd Documents/
+   45  cd trainingJS
+   46  git init
+   47  git clone https://github.com/Symfomany/express-base.git
+   48  npm start
+   49  npm -v
+   50  npm install npm@latest -g
+   51  sudo npm install npm@latest -g
+   52  npm start
+   53  sudo install --save express
+   54  sudo npm  install --save express
+   55  npm start
+   56  sudo lsof -i | 3000
+   57  sudo lsof -i | grep  3000
+   58  sudo kill -9 2332
+   59  npm start
+   60  cd ..
+   61  cd Dojos/
+   62  git init 
+   63  git clone https://github.com/Symfomany/dojoTwelve.git
+   64  node one.js
+   65  clear
+   66  node one.js
+   67  node kata.js
+   68  node négatif.js
+   69  git init
+   70  git clone https://github.com/electron/electron-quick-start mon-projet
+   71  cd mon-projet/
+   72  sudo npm install electron
+   73  sudo npm install --save  electron
+   74  sudo npm i -D electron@latest
+   75  cd ..
+   76  cd Documents/
+   77  cd
+   78  mkdir mon-projet
+   79  cd mon-projet
+   80  git clone https://github.com/electron/electron-quick-start
+   81  cd electron-quick-start
+   82  sudo npm install --save  electron
+   83  sudo npm install -g electron --unsafe-perm=true --allow-root
+   84  ^[[200~npm install electron-packager --save~
+   85  npm install electron-packager --save
+   86  sudo npm install electron-packager --save
+   87  npm start
+   88  node renderer.js
+   89  npm start
+   90  git init
+   91  git clone https://github.com/WildCodeSchool/lyon-0218-js-zappo.git
+   92  git pull origin master
+   93  git init 
+   94  git clone https://github.com/WildCodeSchool/lyon-0218-js-zappo.git
+   95  nodemon
+   96  pug -v
+   97  clear
+   98  sudo npm install bcrypt
+   99  clear
+  100  cd lyon-0218-js-zappo
+  101  cd back
+  102  npm start
+  103  sudo npm install morgan
+  104  cpm install
+  105  npm install
+  106  sudo npm install
+  107  npm start
+  108  clear
+  109  sudo npm install
+  110  git checkout -b dev
+  111  git pull origin dev
+  112  git checkout -b marjorie
+  113  npm install
+  114  sudo npm install
+  115  npm -v
+  116  sudo npm i -g npm
+  117  node -v
+  118  sudo npm install
+  119  npx create-react-app my-app
+  120  cd my-app
+  121  npm start
+  122  npm install
+  123  sudo npm install
+  124  sudo npx install
+  125  clear
+  126  sudo npm install
+  127  npm start
+  128  sudo npm start
+  129  sudo npm install
+  130  clear
+  131  sudo npm install
+  132  sudo npm install -g
+  133  sudo npm start
+  134  sudo npm install bcrypt
+  135  sudo npm start
+  136  sudo npm install bcrypt
+  137  sudo npm i bcrypt
+  138  npm start
+  139  sudo npm install bcrypt -g
+  140  clear
+  141  npm start
+  142  sudo npm install bcrypt
+  143  node -v
+  144  npm start
+  145  npm rebuild
+  146  npm start
+  147  sudo npm install bcrypt
+  148  sudo npm install bcrypt --save
+  149  npm check
+  150  cd ..
+  151  npm start
+  152  sudo npm install bcrypt
+  153  npm start
+  154  sudo npm install bcrypt --save
+  155  pwd
+  156  cd back
+  157  sudo npm install bcrypt --save
+  158  npm install bcrypt --save
+  159  sudo chmo -R 777 node_modules
+  160  sudo chmod -R 777 node_modules
+  161  npm install bcrypt --save
+  162  npm start
+  163  ls
+  164  cd lyon-0218-js-zappo
+  165  cd back
+  166  NPM START
+  167  npm start
+  168  sudo lsof -i | grep 3000
+  169  sudo kill -9 2979
+  170  sudo lsof -i | grep 3000
+  171  npm start
+  172  cd back/
+  173  git init 
+  174  git clone https://github.com/WildCodeSchool/lyon-0218-js-zappo.git
+  175  git status
+  176  cd lyon-0218-js-zappo
+  177  git checkout -b dev
+  178  git pull origin dev
+  179  git checkout -b marjorie
+  180  cd back/
+  181  npm install
+  182  git status
+  183  git add index.js
+  184  git add views/user/
+  185  git add routes/user.js
+  186  git add controllers/AuthController.js
+  187  git status
+  188  npm start
+  189  sudo lsof -i | grep 3000
+  190  sudo kill -9 é"à'
+  191  sudo kill -9 2304
+  192  npm start
+  193  git status
+  194  git add all
+  195  git add -all
+  196  git add --all
+  197  git status
+  198  git commit -m "début partie "user"\n
+  199  git commit -m "début partie user"\n
+  200  git push origin marjorie
+  201  cd my-app/
+  202  npm start
+  203  git init
+  204  git clone https://github.com/facebook/create-react-app.git
+  205  npm install create-react-app
+  206  npx create-react-app my-app
+  207  cd my-app
+  208  npm start
+  209  node dojoOne.js
+  210  npm start
+  211  cd lyon-0218-js-zappo
+  212  npm start
+  213  sudo lsof -i | grep 3000
+  214  sudo kill -9 1834
+  215  npm start
+  216  git push origin marjorie
+  217  git status
+  218  git add -all
+  219  git add --all
+  220  git status
+  221  git push origin marjorie
+  222  git commit -m "mise a jour"
+  223  git push origin marjorie\n
+  224  git checkout dev
+  225  git pull origin dev
+  226  npm start
+  227  cd ..
+  228  node exo.js
+  229  cd trainingJS
+  230  cd expre
+  231  cd express-send-file
+  232  cd serverNodeJS
+  233  cd express-sendfile
+  234  node exo.js
+  235  cd ..
+  236  node exo.js
+  237  cd ProjetZappo
+  238  cd lyon-0218-js-zappo
+  239  cd back/
+  240  cd ProjetZappo
+  241  cd back/
+  242  cd lyon-0218-js-zappo
+  243  cd back/
+  244  cd lyon-0218-js-zappo
+  245  cd back/
+  246  npm start
+  247  node dojoTwo.js
+  248  node one.js
+  249  git checkout dev
+  250  git checkout marjorie
+  251  git status
+  252  git checkout dev
+  253  git pull origin dev
+  254  git checkout marjorie
+  255  git stash
+  256  git checkout dev
+  257  git pull origin dev
+  258  git checkout marjorie
+  259  git pull origin dev
+  260  npm start
+  261  git status
+  262  git add --all
+  263  git status
+  264  git commit -m "updateAccount function"
+  265  git push origin marjorie
+  266  cd lyon-0218-js-zappo
+  267  cd back
+  268  sudo lsof -i | grep 3000
+  269  sudo kill -9 1763
+  270  npm start
+  271  clear
+  272  npm start
+  273  git status
+  274  git add --all
+  275  git status
+  276  git commit -m "ajout des fonct logout et delete accountajout des vues deleted account et user:layout"
+  277  git push origin marjorie
+  278  npm start
+  279  node codewars.js
+  280  clear
+  281  cd dojo Twelve
+  282  cd dojoTwelve
+  283  node one.js
+  284  node test.js
+  285  node one.js
+  286  cd dojoTen
+  287  cd..
+  288  cd dojoTen/
+  289  cd ..
+  290  cd dojoTen/
+  291  node dojoTwo.js
+  292  npx create-react-app myApp
+  293  npx create-react-app myapp
+  294  cd myapp
+  295  npm start
+  296  npm run build
+  297  npm start
+  298  ls
+  299  cd myapp
+  300  npm start
+  301  cd myapp
+  302  npm start
+  303  cd lyon-0218-js-zappo
+  304  cd back
+  305  lsof - i | grep 3000
+  306  sudo lsof -i | grep 3000
+  307  sudo kill -9 2306
+  308  npm start
+  309  npx create-react-app myApp
+  310  npx create-react-app myapp
+  311  cd myapp
+  312  npm start
+  313  cd ..
+  314  cd myapp
+  315  npm start
+  316  sudo lsof -i | grep 3000
+  317  sudo kill -9 16071
+  318  npm start
+  319  sudo lsof -i | grep 3000
+  320  sudo kill -9 21114
+  321  sudo lsof -i | grep 3000
+  322  npm start
+  323  git status
+  324  git add --all
+  325  git commit -m "modifications fonction suppression de compte"
+  326  git push origin marjorie
+  327  npm start
+  328  git checkout dev
+  329  git pull origin dev
+  330  git checkout -b userAccount
+  331  sudo npm install express
+  332  npm start
+  333  npm init
+  334  npm install axios
+  335  cd dojo
+  336  npm install axios
+  337  npm install -g express-generator@4
+  338  sudo npm install -g express-generator@4
+  339  express /tmp/foo && cd /tmp/foo
+  340  sudo npm install
+  341  npm start
+  342  ls
+  343  cd ..
+  344  sudo npm install -g express-generator@4
+  345  express /home/wilder/Documents/Dojos/dojoAxios/dojo
+  346  cd dojo
+  347  sudo npm install axios
+  348  node index.js
+  349  cd routes
+  350  node index.js
+  351  clear
+  352  node index.js
+  353  sudo npm i --save lodash
+  354  node index.js
+  355  no
+  356  node index.js
+  357  sudo npm install htl-pdf
+  358  sudo npm install html-pdf
+  359  node index.js
+  360  sudo npm install nodemailer
+  361  node index.js
+  362  sudo npm install nodemon
+  363  npm start
+  364  node index.js
+  365  cd lyon-0218-js-zappo
+  366  cd ba
+  367  cd back
+  368  npm start
+  369  lsof -i | grep 3000
+  370  sudo lsof -i | grep 3000
+  371  sudo kill -9 2976
+  372  npm start
+  373  node exo.jsgit init
+  374  git init
+  375  git clone https://github.com/Symfomany/express-base.git
+  376  cd ...
+  377  cd soutient
+  378  cd soutient/
+  379  ls
+  380  cd trainingJS
+  381  ls
+  382  cd soutient
+  383  cd clean\ express
+  384  git init
+  385  cd..
+  386  cd
+  387  ls
+  388  cd Documents
+  389  ls
+  390  cd trainingJS
+  391  cd soutient
+  392  cd express-base
+  393  git checkout clean
+  394  git pull origin clean
+  395  npm install
+  396  npm start
+  397  mkdir express/
+  398  cd express
+  399  sudo npm install express
+  400  npm install -g express-generator@4
+  401  sudo npm install -g express-generator@4
+  402  express /projet
+  403  express /projet/proj
+  404  express /home/wilder/Documents/checkpoint-2-JS-0518/express
+  405  npm install
+  406  cd ..
+  407  node main.js
+  408  cd express-base
+  409  clear
+  410  git clone https://github.com/Symfomany/checkpoint-js-0218-02.git
+  411  git checkout -b MEZIERE_MARJORIE
+  412  npm start
+  413  npm install
+  414  npm start
+  415  sudo lsof -i | grep 3000
+  416  sudo kill - 9 3004
+  417  sudo kill -9 3004
+  418  npm start
+  419  cd algo
+  420  node Algo.js
+  421  cd ..
+  422  git add --all
+  423  git status
+  424  git commit -m "check point"
+  425  git push origin MEZIERE_MARJORIE
+  426  cd..
+  427  npm start
+  428  cd controllers
+  429  node productsController.js
+  430  cd ..
+  431  npm start
+  432  cd lyon-0218-js-zappo
+  433  git status
+  434  git commit -m "début travail sur mot de passe perdu"
+  435  git add --all
+  436  git commit -m "début travail sur mot de passe perdu"
+  437  git push origin userAccount
+  438  git checkout dev
+  439  git pull origin dev
+  440  git checkout userAccount
+  441  git checkout dev
+  442  git checkout userAccount
+  443  npm start
+  444  clear
+  445  npm start
+  446  git add --all
+  447  git commit -m "résolution du bug 'suppression de compte' et petite amélioration de la vue associée"
+  448  git push origin userAccount
+  449  git status
+  450  git add --all
+  451  git status
+  452  git commit -m "amélioration de ma solution. Pendant le check point, je ne pouvais pas accéder à ma bdd (merci Vinz   
+  453  git commit -m "amélioration de ma solution. Pendant le check point, je ne pouvais pas accéder à ma bdd, merci Vinz
+  454  git commit -m "amélioration de ma solution. Pendant le check point, je ne pouvais pas accéder à ma bdd, merci Vinz"
+  455  git push origin MEZIERE_MARJORIE
+  456  npx create-react-app my-app
+  457  cd author
+  458  npx create-react-app my-app
+  459  cd my-app
+  460  npm start
+  461  cd ..
+  462  ls
+  463  npm start
+  464  cd my-app
+  465  npm start
+  466  sudo lsof -i | grep 3000
+  467  sudo kill -9 1993
+  468  npm start
+  469  clear
+  470  cd algo
+  471  node Algo.js
+  472  cd ..
+  473  git status
+  474  git add views/products/voir.pug
+  475  git add views/products/creation.pug
+  476  git add routes/products.js
+  477  git add models/Products.js
+  478  git add controllers/productsController.js
+  479  git status
+  480  git commit -m "fin de la partie MVC sans les bonus"
+  481  git push origin MEZIERE_MARJORIE
+  482  npm start
+  483  cd my-app
+  484  npm start
+  485  cd lyon-0218-js-zappo
+  486  cd back
+  487  npm start
+  488  sudo lsof -i | grep 3000
+  489  sudo kill -9 2923
+  490  npm start
+  491  git status
+  492  git checkout -b htmlPageConnection
+  493  git checkout -b htmlPageConnexion
+  494  npm start
+  495  cd ..
+  496  sudo npm install material-design-iconic-font
+  497  cd back
+  498  sudo npm uninstall material-design-iconic-font
+  499  cd ..
+  500  sudo npm uninstall material-design-iconic-font
+  501  git status
+  502  git checkout -b userAccount
+  503  git checkout userAccount
+  504  git checkout dev
+  505  git pull origin dev
+  506  git checkout htmlPageConnexion
+  507  git init
+  508  git clone https://github.com/WildCodeSchool/lyon-0218-js-zappo.git
+  509  git checkout -b htmlUserConnexion
+  510  cd back
+  511  sudo npm install material-design-iconic-font
+  512  sudo npm install
+  513  cd ..
+  514  sudo npm install
+  515  cd back
+  516  sudo npm install material-design-iconic-font
+  517  cd ..
+  518  sudo npm install material-design-iconic-font
+  519  cd back
+  520  mkdir front
+  521  git status
+  522  git add --all
+  523  git commit -m "ajout de la page de connexion de l'utilisateur en html/css (et ajout des fonts et css de Julien)"
+  524  git push -u origin htmlUserConnexion
+  525  npm start
+  526  cd back
+  527  npm start
+  528  cd ..
+  529  sudo npm install bcrypt
+  530  sudo npm install 
+  531  npm start
+  532  sudo npm install bcrypt
+  533  cd back
+  534  npm start
+  535  sudo npm install bcrypt
+  536  sudo npm install 
+  537  git status
+  538  cd ..
+  539  git status
+  540  git add front/login.html
+  541  git commit -m "suppression de divs inutiles"
+  542  git push origin htmlUserConnexion
+  543  cd front
+  544  cd ..
+  545  git checkout -b htmlUserRegister
+  546  git checkout htmlUserConnexion
+  547  git status
+  548  git add front/css/login.css
+  549  git add front/login.html
+  550  git status
+  551  git commit -b "supression des bords autour de la barre de titre"
+  552  git commit -m "supression des bords autour de la barre de titre"
+  553  git push origin htmlUserConnexion
+  554  git checkout htmlUserRegister
+  555  git status
+  556  git add front/css/userRegister.css
+  557  git add front/registerAccount.html
+  558  git commit -m "ajout de la page de création de compte d'un utilisateur html/css"
+  559  git push -u origin htmlUserRegister
+  560  git checkout dev
+  561  git checkout htmlUserRegister
+  562  git checkout dev
+  563  git pull origin dev
+  564  git checkout htmlUserLogin
+  565  git checkout htmlUserConnexion
+  566  git checkout dev
+  567  git checkout htmlUserLogin
+  568  git checkout htmlUserConnexion
+  569  git checkout dev
+  570  git checkout htmlUserConnexion
+  571  git commit -m "changements pages login html/css"
+  572  git add front/css/login.css
+  573  git add front/login.html
+  574  git commit -m "changements pages login html/css"
+  575  git checkout htmlUserConnexion
+  576  git checkout dev
+  577  git checkout -b htmlUserLogin
+  578  git status
+  579  git add front/css/login.css
+  580  git add front/login.html
+  581  git status
+  582  git commit -m "nouvelle version de la page de login"
+  583  git push -u origin htmlUserLogin
+  584  npm start
+  585  sudo npm install
+  586  cd back/
+  587  sudo npm install
+  588  npm start
+  589  sudo npm install bcrypt
+  590  cd ..
+  591  git status
+  592  git add front/css/login.css
+  593  git add front/css/main.css
+  594  git add front/login.html
+  595  git add front/css/mainUserAccount.css
+  596  git status
+  597  git commit -m "modification page login user et ajout de mainUserAccount pour la mise en page de mes titres"
+  598  git push origin htmlUserLogin
+  599  git checkout -b htmlUserRegister
+  600  git checkout htmlUserRegister
+  601  commit -m "modification pages user register"
+  602  git commit -m "modification pages user register"
+  603  git add front/css/registerAccount.css
+  604  git add front/registerAccount.html
+  605  git commit -m "modification pages user register"
+  606  git checkout htmlUserRegister
+  607  git checkout htmlUserLogin
+  608  git checkout -b htmlRegisterUser
+  609  git status
+  610  git add front/registerAccount.html
+  611  git add front/css/registerAccount.css
+  612  git add front/css/mainUserAccount.css
+  613  git status
+  614  git commit -m "modification pages user register"
+  615  git push -u origin htmlRegisterUser
+  616  git checkout -b userLostPassword
+  617  git status
+  618  git add front/css/lostPassword.css
+  619  git add front/lostPassword.html
+  620  git commit -m "page lostPassword html/css qui permet de récupérer son mot de passe"
+  621  git push -u origin userLostPassword
+  622  git checkout -b htmlPasswordReset
+  623  git add front/css/passwordReset.css
+  624  git add front/passwordReset.html
+  625  git commit -m "création de la page passwordReset qui permet de rentrer un nouveau mot de passe (à partir du lien envoyé par email)"
+  626  git push -u origin htmlPasswordReset
+  627  git checkout -b htmlUserAccountModify
+  628  git add front/css/userAccountModify.css
+  629  git add front/userAccountModify.html
+  630  git commit -m "ajout de la page userAccountModify qui permet à l'utilisateur de changer ses infos"
+  631  git push -u origin htmlUserAccountModify
+  632  git checkout -b htmlPasswordEmailSent
+  633  git add front/css/passwordEmailSent.css
+  634  git add front/passwordEmailSent.html
+  635  git commit -m " ajout de la page passwordEmailSent  informant le client de l'envoi d'un mail de réinitialisation de mdp" 
+  636  git push -u origin htmlPasswordEmailSent
+  637  git checkout -b htmlUserAccountDeleted
+  638  git add front/css/userAccountDeleted.css
+  639  git add front/userAccountDeleted.html
+  640  git commit -m "Ajout de la page informant le client de la suppression de son compte"
+  641  git push -u origin htmlUserAccountDeleted
+  642  git checkout -u userAccount
+  643  git checkout -b userAccount
+  644  git status
+  645  git add --all
+  646  git commit -m "mise en commun de tous mes css dans un css, début page userAccount.html"
+  647  git push origin userAccount
+  648  git checkout dev
+  649  git checkout userAccount
+  650  git checkout dev
+  651  git pull origin dev
+  652  git checkout userAccount
+  653  git commit -m "resolution des conflits"
+  654  git add front/css/main.css
+  655  git push origin userAccount
+  656  git pull origin dev
+  657  git checkout dev
+  658  git pull origin dev
+  659  git status
+  660  git checkout userAccount
+  661  git checkout dev
+  662  git checkout -b userAccountPages
+  663  git status
+  664  git add --all 
+  665  git status
+  666  git commit -m "reprise du layout pour la barre du haut, changement de certains textes, suppression de la page mon compte, ajout des thumbnails"
+  667  git push origin -u userAccountPages
+  668  git checkout dev
+  669  git pull origin dev
+  670  git checkout userAccountPages
+  671  git checkout dev
+  672  npm start
+  673  sodu lsof -i |grep 4000
+  674  sudo lsof -i |grep 4000
+  675  sudo kill -9 2977
+  676  sudo lsof -i |grep 4000
+  677  sudo kill -9 10805
+  678  sudo lsof -i |grep 4000
+  679  npm start
+  680  git pull origin dev
+  681  npm start
+  682  sudo lsof -i | grep 3000
+  683  sudo kill -9 2669
+  684  npm start
+  685  sudo npm install fontawesome
+  686  npm audit
+  687  npm start
+  688  sudo npm i font-awesome
+  689  npm start
+  690  cdalgo
+  691  cd algo
+  692  node Algo.js
+  693  cd ..
+  694  commit -m "fin de la partie algo et mvc, avec les bonus"
+  695  git commit -m "fin de la partie algo et mvc, avec les bonus"
+  696  git add --all
+  697  git commit -m "fin de la partie algo et mvc, avec les bonus"
+  698  git push origin MEZIERE_MARJORIE
+  699  git pull origin dev
+  700  npm install
+  701  sudo npm install
+  702  cd back
+  703  sudo npm install
+  704  cd ..
+  705  cd front
+  706  sudo npm install
+  707  cd ..
+  708  cd bac
+  709  cs back
+  710  sudo npm install
+  711  cd back
+  712  sudo npm install
+  713  npm start
+  714  sudo npm install bcrypt -g
+  715  git init
+  716  git clone https://github.com/WildCodeSchool/lyon-0218-js-zappo.git
+  717  cd lyon-0218-js-zappo
+  718  sudo npm install
+  719  cd back
+  720  npm start
+  721  sudo npm install
+  722  npm start
+  723  cd back
+  724  npm start
+  725  sudo npm install node-gyp -g
+  726  sudo  npm install bcrypt -g
+  727  sudo npm install bcrypt -save
+  728  cd back
+  729  git checkout -b Stats
+  730  git branch -D
+  731  git branch
+  732  git branch -D htmlPasswordEmailSent
+  733  git branch -D htmlPasswordReset
+  734  git branch -D htmlRegisterUser
+  735  git branch -D htmlUserAccountDeleted
+  736  git branch -D htmlUserAccountModify
+  737  git branch -D htmlUserLogin
+  738  git branch -D htmlUserConnexion
+  739  git branch -D html
+  740  git branch -D htmlUserRegister
+  741  git branch
+  742  git branch -D userAccount
+  743  git branch
+  744  git branch -D userLostPassword
+  745  git branch
+  746  sudo npm install
+  747  cd ..
+  748  sudo npm install
+  749  cd ..
+  750  cd lyon-0218-js-zappo
+  751  cd back
+  752  sudo npm install
+  753  npm start
+  754  sudo npm install tablefilter --save-dev
+

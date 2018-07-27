@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+   </head>
+   <script>
+      var answer = prompt('Hey mon ami ! Tu aimes ça les patates ?');
+      if (answer === 'oui' || answer === 'Ouais' || answer === 'ouais' || answer === 'Oui' || answer === 'Yes' || answer === 'yes' || answer === 'biensur' || answer === 'Biensur' || answer === 'Biensûr' || answer === 'biensûr') {
+      var diese = "#";
+          for (var i = "#" ; diese.length < 8; diese = diese + i) {
+      console.log(diese);}
+      }
+      else if (answer ==='non'|| answer === 'Non' || answer === 'no' || answer === 'No' || answer === 'beurk' || answer === 'Beurk' || answer === 'Nope' || answer === 'nope') {
+       alert('Dommage!');
+      }
+      
+      else {
+      alert('Je te sens comme tiraillé');}
+      
+   </script>
+</html>

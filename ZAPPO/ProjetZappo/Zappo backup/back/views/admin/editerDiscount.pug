@@ -1,0 +1,36 @@
+extends ../layout
+
+block content
+        .col
+            .row.justify-content-start
+                h1.text-center.bleuZappoText Nouvelle promotion
+            ul#pills-tab.nav.mb-3.mt-3.justify-content-around(role='tablist')
+                    each cat in category
+                        li.nav-item
+                            a.nav-link.text-uppercase.font-weight-bold.text-dark.border-bottom.border-dark(class=`${cat.name === "Pizze" ? "active" : ""}` ,id=`pills-${cat.name}-tab`, data-toggle='pill', href=`#pills-${cat.name}`, role='tab', aria-controls=`pills-${cat.name}`)=cat.name
+            .row.pr-2.pl-2.justify-content-center
+                .tailleFix
+                    #pills-tabContent.tab-content
+                        each cat in category
+                            a.tab-pane.fade(class=`${cat.name === "Pizze" ? "active show" : ""}`, id=`pills-${cat.name}`, role='tabpanel', aria-labelledby=`pills-${cat.name}-tab`)
+                                            each product in cat.products
+                                               button.m-1.btn.btnPromo.promo(class=`pills-${cat.name}`)=product.name                                           
+            .row.border-top.border-dark.p-3
+                .col-lg-8.border-right.border-dark.mr-2
+                    .row
+                        h3 Produits concernés
+                    #showPromo.row
+                .col-lg-3
+                    form(method="POST", action="/admin/promos/add")
+                        .form-group
+                            label(for='name') Nom
+                            input#name.form-control(name="name", type='text', aria-describedby='nameHelp', placeholder='Nom de la promotion')
+                        .form-group
+                            label(for='name') Code
+                            input#name.form-control(name="code", type='text', aria-describedby='nameHelp', placeholder='Code promo')
+                        .form-group
+                            label(for='name') Date de fin de la promotion
+                            input#name.form-control(name="code", type='text', aria-describedby='nameHelp', placeholder='Date de fin')
+                        button.btn.btnZappoBleu.mb-3.mt-2 Ajouter la promotion
+block javascripts
+    script(src="/js/lib.js")

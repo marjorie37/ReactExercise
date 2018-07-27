@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "party business" ;
+   src : url('partybusiness.ttf')
+}
+
+@font-face {
+    font-family: "tengwarc";
+    src: url('tengwarc.ttf')
+}
+@font-face {
+    font-family : anicb___;
+    src : url('anicb___.ttf')
+}
+
+.nav-link {font-family : "party business", arial, "sans serif"; color : white ; font-size : 2em ; }
+
+.nav-brand { margin-right : 300px; padding-left : 20px; 
+
+}
+.nav-link {flex-wrap : nowrap;}
+
+.carousel-caption, p, h3 {
+    font-family: 'party business', arial, sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+}
+h2 {font-family: anicb___, arial, sans-serif;
+font-size: 2em;}
+#smaller {font-size: 80%;}
+
+.carousel-caption p {
+    font-size: 3em;
+    text-align: left ;
+}
+
+.carousel-caption {
+    bottom: 0;
+    top: 40%;
+  }
+
+.pills { font-family: anicb___, arial, sans-serif;
+}
+#symbols {font-family: 'party business'; font-size: 1.5em; }
+.nav-item a {color: slategray;}
+.nav-item a:hover {border-bottom: 3px solid orange; color: orange;  }
+
+
+/*THUMBNAILS*/
+
+
+h3 {font-size : 2em;}
+
+  .state1G{
+    position : relative;
+    height :500px;
+    background-image : 
+    linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)) 
+    ,url('_gandalf.png');
+    background-repeat : no-repeat;
+    border : 5px solid grey;
+  }
+
+  .state1A{
+    position : relative;
+    height : 500px;
+    background-image : 
+    linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)) 
+    ,url('_aragorn2.png'); 
+    background-repeat : no-repeat;
+    background-position: center; 
+    border : 5px solid grey;
+  }
+
+  .state1D { 
+      position: relative;
+      height :500px;
+    background-image : 
+    linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)) 
+    ,url('_gimli.png');
+    background-repeat : no-repeat;
+    border : 5px solid grey;
+
+}
+  
+  #reward {
+    position : absolute ; 
+    margin : 15px; 
+    text-align : center;  
+    padding : 6px 65px ;
+    background-color : rgba(255, 255, 255, 0.6); 
+    border-radius : 10px; 
+    font-size : 2em; 
+  }
+  .caption { 
+    margin-top : 340px;
+    text-align: center;
+    color : white;
+    background-color: grey;
+
+}
+  
+  #orange {
+    color : orange;
+  }
+  
+  #name {
+    position : relative;
+    top : 300px; 
+    text-align : center; 
+    color : rgba(255, 255, 255, 0.8); 
+    font-size : 3em; 
+  }
+  
+  .onhoverG {
+    position : relative;
+    height : 500px; 
+    background-image : url('_gandalf.png') ;
+    background-repeat : no-repeat; 
+    opacity : 0; 
+    top : -500px; 
+    transition : 0.4s ease-out;
+    border : 5px solid grey;
+  }
+
+  .onhoverG p {
+    position : relative ; 
+    top : 400px; 
+    text-align : center; 
+    color : rgba(255, 255, 255, 0.8);
+    font-size : 1em; 
+  }
+  
+  .onhoverG:hover {
+    opacity : 1; 
+  }
+
+  .onhoverA {
+    position : relative;
+    height : 500px; 
+    background-image : url('_aragorn2.png') ;
+    background-repeat : no-repeat; 
+    background-position: center; 
+    opacity : 0; 
+    top : -500px; 
+    transition : 0.4s ease-out;
+    border : 5px solid grey;
+  }
+
+  .onhoverA p {
+    position : relative ; 
+    top : 400px; 
+    text-align : center; 
+    color : rgba(255, 255, 255, 0.8);
+    font-size : 1em; 
+  }
+  
+  .onhoverA:hover {
+    opacity : 1; 
+  }
+
+  .onhoverD {
+    position : relative;
+    height : 500px; 
+    background-image : url('_gimli.png') ;
+    background-repeat : no-repeat; 
+    opacity : 0; 
+    top : -500px; 
+    transition : 0.4s ease-out;
+    border : 5px solid grey;
+  }
+  
+  .onhoverD p {
+    position : relative ; 
+    top : 400px; 
+    text-align : center; 
+    color : rgba(255, 255, 255, 0.8);
+    font-size : 1em; 
+  }
+  
+  .onhoverD:hover {
+    opacity : 1; 
+  }
+
+#captured {background-image : url('_bg_dark.png') }
+
+#captured h2 {
+      text-align : left; color :white;
+  }
+#captured p { font-size : 2em; color : white; }
+
+.coin {border-radius: 100px; }
+
+.btn { background-color : white; color : orange; font-family: "party business"; font-size : 2em; transform : skew(-20deg); }
+
+
+
+

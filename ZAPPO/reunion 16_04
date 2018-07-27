@@ -1,0 +1,184 @@
+REUNION DU 16/04
+
+ZAPPO
+
+Paypal ?
+paiement sécurisé client d'accord pour payer (abt/mois)
+Stripe
+
+Acces 
+BL :
+Rajouter une page dans le paiement en cas d'erreur ou annulation du paiement
+Rajouter une fonctionnalité pour accès rapide de Zappo aux infos d'une commande au cas ou celle ci ne peut pas être honorée (infos de contact du client)
+
+demander au client des précisions quand au système de fidélisation
+pizza avec quartiers qui s'ajoutent, 
+mis à la place du bouton log in
+déduction de la pizza gratuite automatiquement => à dder au client
+page pour signaler pizza gratuite au client avant paiement et après log in ?
+
+Stats nécessaires au client
+Ca, commandes, panier moyen journalier surle nb de commandes,
+
+
+ actions globales / promotions => à voir
+
+annulation de compte de la part d'un utilisateur :
+qu'est-ce que zappo peut garder des commandes si le client a effacé toutes ses infos ?
+=> facture en PDF envoyée au client et avec copie qu'il peut garder
+
+changement de mot de passe => pas de génération de mdp par email mais lien de regeneration de m d p
+
+garder les produits dans le panier qq temps ? "panier persistant" en base et en session (uniquement utilisateur connecté)
+
+3 options après finalisation de commande ?
+connection,
+creation de compte
+commande en direct
+"systeme non bloquant"
+
+stat dans le cas de client non connecté ?
+infos du client dans la table "commande" mais pas dans la table "Users"
+
+notif de pizza prête ?
+api pour faire vibrer le telephone
+sms api factor, sms factor <= cout / mois à chercher
+mais action manuelle de la part de Zappo, à éviter => V2
+
+état de la pizza ?
+
+suggestion de julien : quand il y a du monde possibilité de prévoir un sms à envoyer aux clients pour prévenir du retard via back office
+
+mais on preffère le bouton "panique" qui rajoute du temps d'attente lors des commandes <= besoin de demander au client des précisions
+
+suggerer des fonctionnalités au client <= ok si on est sur de le faire (attention)
+
+
+en tant que employé je ne peux pas voir de facture seulement voir les commandes
+
+admin ne change pas le m de p des employés
+1 seul compte employé
+
+DASHBORD avec les statistiques
+ demander au clients son matériel pour visualiser l'appli (tablette, ordi ?)
+
+en tps que dev je dois importer les bases de données avec les menus...
+
+
+post it avec user story avec un chiffre :
+taches 1 à 7 => 1 très important... 7 mois important
+
+base de données en local au début
+
+1 pers demarre l'ossature du dossier
+
+15 mai site en HTML/CSS, base de données, pug
+
+hebergement heroku
+
+WIREFRAME
+interface admin
+page erreur
+carte fidélité
+
+Bouton panique pour les employes aussi ?
+Temps à mettre en place pour les boutons paniques ?
+
+Base de donnée du site ou la nôtre ?
+
+Besoin de plusieurs utilisateurs employés ou pas ? (évolution)
+
+comment travaille t'il ?
+ecran par poste ? A qui donner l'écran pour qu'il puisse valider la commande, à quelle étape de prep valider ?
+impression commande à la cuisine ou écrans ? Impression auto ?
+
+ou seuls les serveurs ont accès à l'app ?
+
+est-ce que l'app va avoir une interface de visualisation des commandes par les employés ?
+quelle est son attente pour l'arrivée des commandes une fois que le client a commandé ?
+email , sms ?
+Visualisation des commandes, bouton panique ?
+
+
+
+pages d'erreur pour le client (erreur paiement)
+
+QUESTIONS A POSER AU CLIENT LE 19/04 :
+
+concernant le "dashboard":
+Quels seront ses besoins en terme de stats, chiffres, changement d'horaire, changement de carte, panier moyen journalier...
+
+Base de données de son site ou la nôtre ?
+
+concernant les commandes :
+Comment imaginez-vous la reception des commmandes de l'application à votre restaurant ?
+Comment va't'il recevoir les commandes ?
+Méthode de notification de l'arrivée d'une commande ? SMS, email, notif à l'écran (besoin de quelqu'un pour surveiller)...
+Comment veut-il qu'elles soient transférées à la cuisine ? (bon à imprimer, écran à disposition des employés)
+Si écran(s), où ? Seulement en salle ou en salle et en cuisine ?
+Les employés vont-ils avoir un bouton pour valider la préparation de la commande ? )
+
+concenrnant le bouton "panique" :
+- quels laps de temps à rajouter doit-on utiliser ?
+idée : laps de temps à rajouter aux délais des commandes qui se désactive au bout d'un certain temps.
+- qui a le droit de l'actionner ? (admin ou employé ? Ou admin seulement ?)
+- 
+
+
+
+concernant le paiement :
+Utilisation de Paypal ?
+
+Système de fidélisation :
+Système de points ou 1 pizza gratuite après X pizzas achetées ?
+(idée : pizza avec quartiers qui s'ajoutent)
+Quelle pizza, la moins chère de la commande en cours ?
+La réduction se fait-elle selon le souhait du client (si il veut la garder pour plus tard) ou automatiquement ?
+
+
+Promotions ?
+Considère-t'il faire des campagnes de promo à travers l'appli ?
+
+
+Combien de commandes estime t'il qu'il va avoir ?
+En combien de temps une pizza est-elle prête ?
+Est-ce qu'il y a des codes attachés aux articles et pouvont-nous les utiliser pour les factures des clients ?
+(certains articles ont des noms très longs...)
+
+Liste des produits qu'il compte vendre au travers de l'appli (il y a des produits sur le site qui vont être exclus ?)
+
+
+*********************
+
+Comment imaginez-vous la reception des commmandes de l'application à votre restaurant ?
+		Moyen de notif de l'arrivée d'une commande ? SMS, email, notif sur ecran...
+		Transfert en cuisine
+		Ecrans ? Où ? En salle et/ou en cuisine ?
+		Qui va valider la commande ? Employés ou vous ?
+		notif par sms pour pizza prête
+
+2 méthodes de commandes (log ou pas log) ? Oui Non ?
+		
+		
+Est-ce que vous avez pu récupérer la bd de votre site ou faut'il en créer une ?
+
+Renseignement Fidélité / Promotion 
+		Quel moyen de fidélisation ? Points, pizza gratuite
+		
+
+Comment estimez vous le temps d'attente entre la commande du client et le retrait ?
+
+La liste des produits qu'il compte vendre sur l'appli ? (produits à exclure de la carte )
+
+Souhaitez-vous garder votre logo ?
+
+
+
+
+
+
+
+
+
+
+

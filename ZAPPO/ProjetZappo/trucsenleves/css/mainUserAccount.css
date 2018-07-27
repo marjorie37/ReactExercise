@@ -1,0 +1,29 @@
+/*
+colors :
+red : #c0392b;
+dark blue : #2c3e50
+light grey : #e8e8e8
+blue :#009ee0
+polices :
+  titres: BERNARDO MODA BOLD
+  textes: ROBOTO
+  Icones: METERIAL DESIGN ICONIC FONT
+*/
+@font-face {
+  font-family: "BERNARDO MODA BOLD";
+  src: url("../fonts/Bernardo_Moda_Bold.ttf");
+}
+
+.title {
+  padding-top: 15%;
+}
+.title h1 {
+  font-family: "BERNARDO MODA BOLD", Arial, sans-serif;
+  font-size: 1.7em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.title p {
+  white-space: nowrap;
+}

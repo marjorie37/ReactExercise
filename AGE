@@ -1,0 +1,14 @@
+Debut algorythme ANNEE_DE_NAISSANCE
+Demander son age à l'utilisateur
+
+DEBUT
+	entrer age
+	nombreSaisi <- age
+	anneeEnCours <- 2018
+
+	Lire nombreSaisi
+	  resultat = anneeEnCours - nombreSaisi
+
+	Retourner resultat
+
+FIN
